@@ -140,8 +140,10 @@ We welcome contributions! To get started:
 ```git checkout -b feature/your-feature```
 
 3- Make your changes & add tests if applicable
+
 4- Commit with a clear message:
 ```git commit -m "feat: add awesome feature```
+
 5- Push and open a Pull Request against main
 
 ## 9. License
