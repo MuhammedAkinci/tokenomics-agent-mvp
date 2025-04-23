@@ -136,6 +136,7 @@ Create a .env file at the project root:
 We welcome contributions! To get started:
 
 1- Fork the repo & clone your fork
+
 2- Create a feature branch:
 ```git checkout -b feature/your-feature```
 
