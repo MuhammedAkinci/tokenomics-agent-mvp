@@ -87,4 +87,67 @@ npm run dev
 yarn dev
 
 # 5. Open http://localhost:5173 in your browser
+```
+
+## 5. Folder Structure
+
+```plaintext
+tokenomics-agent-mvp/
+├── agent/
+│   ├── analyze-tokenomics.ts    # Next.js API handler example
+│   ├── sendToIO.ts             # IO Intelligence wrapper
+│   ├── TokenomicsForm.tsx      # File-upload form example
+│   └── server.js               # Express + Next starter
+├── public/
+│   └── images/                 # (OPTIONAL) static images for README or UI
+├── src/
+│   ├── components/             # UI components (Header, InputForm, ResultsDisplay)
+│   ├── services/               # AI integrations (ioService, mockAnalysis)
+│   ├── types/                  # TypeScript interfaces
+│   ├── App.tsx                 # Main application component
+│   └── main.tsx                # React entry point
+├── .env                        # Environment variables (gitignored)
+├── index.html                  # Vite HTML template
+├── package.json                # Project metadata & scripts
+├── tsconfig.json               # TypeScript config
+├── vite.config.ts              # Vite configuration
+├── tailwind.config.js          # Tailwind CSS configuration
+├── postcss.config.js           # PostCSS setup
+└── package-lock.json           # Lockfile for npm
+```
+
+
+## 6. Scripts
+Run these via npm run <script> or yarn <script>:
+
+- dev — start Vite dev server
+- build — build production bundle
+- preview — preview the production build locally
+- lint — run ESLint across the codebase
+
+## 7. Environment Variables
+Create a .env file at the project root:
+
+```VITE_IO_API_KEY=your-io-intelligence-api-key```
+
+- VITE_IO_API_KEY — your IO Intelligence API key used by /src/services/ioService.ts
+
+## 8. Contributing
+We welcome contributions! To get started:
+
+1- Fork the repo & clone your fork
+2- Create a feature branch:
+```git checkout -b feature/your-feature```
+
+3- Make your changes & add tests if applicable
+4- Commit with a clear message:
+```git commit -m "feat: add awesome feature```
+5- Push and open a Pull Request against main
+
+## 9. License
+This project is released under the MIT License.
+
+
+
+
 
